@@ -1,0 +1,4 @@
+USE Venda;
+
+ALTER TABLE dbo.Aline ADD UF CHAR(2) NULL;
+ALTER TABLE dbo.Aline ADD Telefone INT NOT NULL;

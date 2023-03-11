@@ -1,0 +1,9 @@
+CREATE TABLE Veiculo
+(
+    Id INT NOT NULL PRIMARY KEY,
+    Descricao VARCHAR(100) NOT NULL,
+    DataCriacao DATETIME NOT NULL,
+    TipoMotor DECIMAL NOT NULL,
+    Valor SMALLMONEY NOT NULL,
+    Vendido BIT NOT NULL,
+);
